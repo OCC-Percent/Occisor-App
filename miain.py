@@ -11,7 +11,7 @@ mian_title = tk.Label()
 mian_title.config(bg="#323232")
 mian_title.config(fg="#FFFFFF")
 mian_title.config(text="The Occisor Application")
-mian_title.config(font="微軟正黑體 30")
+mian_title.config(font="Comfortaa 30")
 mian_title.pack()
 
 profile_btn = tk.Button()
