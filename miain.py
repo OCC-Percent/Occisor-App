@@ -1,4 +1,3 @@
-from cProfile import label
 import tkinter as tk
 
 window = tk.Tk()
@@ -8,12 +7,12 @@ window.config(bg="#323232")
 
 profile_img = tk.PhotoImage(file="D:\Code\occisor_app\profile_logo.png")
 
-title = tk.Label()
-title.config(bg="#323232")
-title.config(fg="#FFFFFF")
-title.config(text="The Occisor Application")
-title.config()
-title.pack()
+mian_title = tk.Label()
+mian_title.config(bg="#323232")
+mian_title.config(fg="#FFFFFF")
+mian_title.config(text="The Occisor Application")
+mian_title.config(font="微軟正黑體 30")
+mian_title.pack()
 
 profile_btn = tk.Button()
 profile_btn.config(bg="#323232")
